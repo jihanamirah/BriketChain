@@ -1,0 +1,10 @@
+[project]
+name = "briketchain-backend"
+version = "0.1.0"
+description = "BriketChain Traceability API Backend"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.1",
+    "pydantic>=2.0.0",
+    "python-jose[cryptography]>=3.3.0"
+]
